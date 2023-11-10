@@ -2,6 +2,7 @@ import OpenAI from "openai";
 import "dotenv/config";
 import express from "express";
 import chatRouter from "./routes/chat.route";
+import imageRouter from "./routes/image.route";
 
 const app = express();
 const port = process.env.PORT || 3001;
@@ -17,6 +18,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api", chatRouter);
+app.use("/api", imageRouter);
 
 app.listen(port, () => {
   console.log(`Listening on port http://localhost:${port}`);

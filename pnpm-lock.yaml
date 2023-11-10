@@ -12,8 +12,8 @@ dependencies:
     specifier: ^4.18.2
     version: 4.18.2
   openai:
-    specifier: ^4.16.1
-    version: 4.16.1
+    specifier: ^4.17.3
+    version: 4.17.3
 
 devDependencies:
   '@types/express':
@@ -766,8 +766,8 @@ packages:
       wrappy: 1.0.2
     dev: true
 
-  /openai@4.16.1:
-    resolution: {integrity: sha512-Gr+uqUN1ICSk6VhrX64E+zL7skjI1TgPr/XUN+ZQuNLLOvx15+XZulx/lSW4wFEAQzgjBDlMBbBeikguGIjiMg==}
+  /openai@4.17.3:
+    resolution: {integrity: sha512-Gx9wzl9HWX5pjagkgXVu6U2BTFEPkQFdkppNnAX2n2Rpjtn2zt152wXh7NnZ5eJuVxUGYzRe66JmayAEGjzqAg==}
     hasBin: true
     dependencies:
       '@types/node': 18.18.9
