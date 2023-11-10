@@ -1,5 +1,4 @@
 import OpenAI from "openai";
-import "dotenv/config";
 
 const { API_KEY } = process.env;
 if (!API_KEY) throw new Error("API_KEY is not defined");

@@ -1,5 +1,4 @@
 import OpenAI from "openai";
-import "dotenv/config";
 import { Response } from "express";
 
 import { ChatCompletionFunctionMessageParam } from "openai/resources";
