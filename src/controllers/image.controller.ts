@@ -9,7 +9,7 @@ export async function imageGenerateController(req: Request, res: Response) {
     }
 
     const imageUrl = await generateImage(prompt);
-
+    console.log("imageUrl:", imageUrl);
     return res.status(200).json({ imageUrl });
   } catch (err) {
     console.log(err);

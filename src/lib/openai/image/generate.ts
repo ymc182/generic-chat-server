@@ -25,7 +25,6 @@ export async function generateImage(prompt: string): Promise<string> {
     },
   );
   const imageResponseJson = await imageResponse.json();
-  console.log(imageResponseJson);
   if (imageResponseJson.error) {
     throw new Error(imageResponseJson.error.message);
   } else {
